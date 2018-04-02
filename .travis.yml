@@ -1,0 +1,14 @@
+language: python
+
+python:
+  - 3.6
+
+script:
+  - pytest -v
+
+after_success:
+  - coveralls
+
+# notifications:
+#   slack:
+#     secure: your_token_key
