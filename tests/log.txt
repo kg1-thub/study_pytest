@@ -1,0 +1,20 @@
+. tests/test_calc.py::test_add_01
+. tests/test_calc.py::test_add_02
+. tests/test_calc.py::test_dif_01
+. tests/test_calc.py::test_dif_02
+. tests/test_calc.py::test_seki_01
+. tests/test_calc.py::test_seki_02
+. tests/test_calc.py::test_shou_01
+. tests/test_calc.py::test_shou_02
+. tests/test_say.py::test_foo_say
+F tests/test_say.py::test_foo_say2
+ def test_foo_say2():
+ >       assert Foo().say2() == 'foo'
+ E       AssertionError: assert 'foo2' == 'foo'
+ E         - foo2
+ E         ?    -
+ E         + foo
+ 
+ tests\test_say.py:7: AssertionError
+. tests/test_say.py::test_hoge_say
+. tests/test_say.py::test_hoge_say2
