@@ -4,7 +4,6 @@ python:
   - 3.6
 
 script:
-  - SET PYTHONPATH=/home/travis/build/kg1-thub/study_pytest;
   - pytest -v
 
 after_success:
